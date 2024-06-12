@@ -1,0 +1,876 @@
+/* basic properties */
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0px;
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 1.6px;
+  text-align: left;
+}
+
+p {
+  margin-top: 0px;
+  color: rgb(33, 33, 33);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.4px;
+  text-align: left;
+}
+
+ul {
+  padding-left: 0px;
+  color: rgb(188, 189, 189);
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  list-style-type: none;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(244, 106, 53);
+  box-sizing: border-box;
+  border: 1px solid rgb(244, 106, 53);
+  border-radius: 10px;
+
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+footer {
+  width: 1200px;
+  height: 1196px;
+  background-color: rgb(23, 23, 23); /* maybe delete then */
+}
+
+/* top links */
+
+.top-links-section {
+  width: 1200px;
+  height: 60px;
+  display: flex;
+  gap: 124px;
+}
+
+.top-links-subsection-1 {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.top-links-subsection-2 {
+  display: flex;
+  align-items: center;
+}
+
+.top-links {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.14px;
+  text-align: left;
+}
+
+.top-links-2 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  text-align: center;
+}
+
+.top-links-arrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.solutions {
+  width: 63px;
+  height: 20px;
+}
+
+.products {
+  width: 61px;
+  height: 20px;
+}
+
+.resourses {
+  width: 72px;
+  height: 20px;
+}
+
+.account-enter {
+  margin-right: 38px;
+  width: 117px;
+  height: 20px;
+}
+
+.registration {
+  margin-right: 29px;
+  width: 46px;
+  height: 20px;
+}
+
+.top-links-button {
+  margin-right: 24px;
+  padding: 7px 26px 7px 26px;
+}
+
+/* description, hero section */
+
+.description-section {
+  width: 1200px;
+  height: 740px;
+  display: flex;
+}
+
+.main-part-description {
+  margin: 76px 0px 0px 48px;
+  width: 494px;
+  height: 227px;
+}
+
+.minor-part-description-1 {
+  margin: 97px 0px 0px 48px;
+}
+
+.minor-part-description-2 {
+  margin: 65px 0px 0px 48px;
+}
+
+.main-title {
+  margin-top: 0px;
+  margin-bottom: 23px;
+  width: 494px;
+  height: 156px;
+}
+
+.orange-button-description {
+  margin-right: 8px;
+  padding: 13px 32px 13px 32px;
+}
+
+.white-button-description {
+  padding: 13px 21px 13px 22px;
+  color: rgb(33, 33, 33);
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.subtitle-description {
+  margin-top: 0px;
+  margin-bottom: 9px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.32px;
+}
+
+.text-description {
+  margin-top: 0px;
+  margin-bottom: 7px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.28px;
+  text-align: left;
+}
+
+.info-with-arrow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.more-info-description {
+  width: 87px;
+  height: 24px;
+  color: rgb(244, 106, 53);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.arrow-description {
+  width: 15px;
+  height: 24px;
+  color: rgb(244, 106, 53);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.image-description {
+  width: 600px;
+  height: 740px;
+}
+
+/* Sponsors section */
+
+.sponsors-section {
+  position: relative;
+  left: -50px;
+  width: 1200px;
+  height: 152px;
+  display: flex;
+  gap: 48px;
+}
+
+.sponsor {
+  margin-top: 80px;
+  margin-bottom: 48px;
+}
+
+.combinator-sponsor {
+  width: 125px;
+  height: 24px;
+}
+
+.doordash-sponsor {
+  width: 202px;
+  height: 24px;
+}
+
+.scale-sponsor {
+  width: 74px;
+  height: 24px;
+}
+
+.airtable-sponsor {
+  width: 90px;
+  height: 24px;
+}
+
+.whatnot-sponsor {
+  width: 136px;
+  height: 24px;
+}
+
+.classpass-sponsor {
+  width: 123px;
+  height: 24px;
+}
+
+.deel-sponsor {
+  width: 66px;
+  height: 24px;
+}
+
+.airbnb-sponsor {
+  width: 72px;
+  height: 24px;
+}
+
+/* Solutions */
+
+.solutions-introduction {
+  width: 1200px;
+  height: 300px;
+}
+
+.solutions-title {
+  margin: 160px auto 8px auto;
+  width: 493px;
+  height: 52px;
+  font-size: 36px;
+  letter-spacing: 1.6px;
+  text-align: center;
+}
+
+.solutions-main-description {
+  margin: 0px auto 48px auto;
+  width: 637px;
+  height: 32px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: center;
+}
+
+.solutions-subsection {
+  width: 1200px;
+  height: 729px;
+  display: flex;
+  gap: 8px;
+}
+
+.solutions-subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+  text-align: center;
+}
+
+.solutions-sub-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+
+.enterprise-subsection {
+  background: url(./images/enterprise/background\ enterprise.png);
+  width: 580px;
+  height: 641px;
+}
+
+.enterprise-subtitle {
+  margin: 64px auto 10px auto;
+  color: rgb(255, 255, 255);
+  width: 286px;
+  height: 40px;
+}
+
+.startup-subsection {
+  background: url(./images/startup/background\ startup.png);
+  width: 580px;
+  height: 641px;
+}
+
+.startup-subtitle {
+  margin: 48px auto 10px auto;
+  width: 258px;
+  height: 40px;
+}
+
+.enterprise-sub-description {
+  margin: 0px auto 22px auto;
+  color: rgb(255, 255, 255);
+  width: 476px;
+  height: 48px;
+}
+
+.white-button-solutions {
+  margin: 0 auto 6px auto;
+  display: block;
+  padding: 13px 41px 13px 41px;
+  background-color: rgba(0, 0, 0, 0);
+
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.phone-enterprise {
+  width: 580px;
+  height: 401px;
+}
+
+.startup-sub-description {
+  margin: 0px auto 22px auto;
+  width: 444px;
+  height: 48px;
+}
+
+.black-button-solutions {
+  display: block;
+  margin: 0px auto 6px auto;
+  padding: 13px 41px 13px 41px;
+  color: rgb(33, 33, 33);
+  background-color: rgba(0, 0, 0, 0);
+
+  box-sizing: border-box;
+  border: 1px solid rgb(33, 33, 33);
+  border-radius: 10px;
+}
+
+.cards-startup {
+  width: 580px;
+  height: 401px;
+}
+
+/* Budget example section */
+
+.budget-example-section {
+  width: 1200px;
+  height: 1033px;
+}
+
+.main-budget-example {
+  margin: 80px 232px 0px 48px;
+  width: 920px;
+  height: 252px;
+}
+
+.title-budget-example {
+  width: 612px;
+  height: 52px;
+  font-size: 36px;
+}
+
+.description-budget-example {
+  width: 850px;
+  height: 64px;
+  line-height: 32px;
+}
+
+.button-budget-example {
+  padding: 12px 21px 14px 21px;
+  background-color: rgba(0, 0, 0, 0);
+
+  color: rgb(33, 33, 33);
+  box-sizing: border-box;
+  border: 1px solid rgb(33, 33, 33);
+  border-radius: 10px;
+}
+
+.photo-budget-example {
+  margin: 0px 48px 80px 48px;
+  width: 1104px;
+  height: 621px;
+}
+
+/* Sponsors section */
+
+.sponsor-section {
+  width: 1200px;
+  height: 664px;
+}
+
+.doordash-section-sponsor {
+  margin: 251px 510px 49px 510px;
+  width: 180px;
+  height: 21px;
+}
+
+.middle-content-sponsor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.sponsor-review {
+  margin-right: 123px;
+  margin-bottom: 0px;
+  width: 673px;
+  height: 48px;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.left-button {
+  margin-left: 48px;
+  margin-right: 166px;
+}
+
+.right-button {
+  margin-right: 90px;
+}
+
+.sponsor-button {
+  width: 15px;
+  height: 19px;
+  padding-left: 18px;
+  padding-right: 18px;
+  background-color: rgb(237, 239, 238);
+  color: rgb(33, 33, 33);
+  border: 0px;
+  border-radius: 0px;
+}
+
+.sponsor-name {
+  margin: 0px auto 227px auto;
+  width: 288px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.32px;
+  text-align: center;
+}
+
+/* Companies sections */
+
+.companies-title-section {
+  width: 1200px;
+  height: 208px;
+}
+
+.companies-title {
+  margin: 25px auto 79px auto;
+  width: 687px;
+  height: 104px;
+  text-align: center;
+}
+
+.companies-upper-blocks {
+  width: 1200px;
+  height: 340px;
+  display: flex;
+  gap: 64px;
+}
+
+.empire-company-block {
+  margin-left: 48px;
+  width: 325px;
+  height: 340px;
+}
+
+.empire-company-photo {
+  margin-bottom: 26px;
+  width: 325px;
+  height: 184px;
+}
+
+.empire-company-description {
+  margin-bottom: 22px;
+  width: 306px;
+  height: 84px;
+}
+
+.scale-company-block {
+  width: 325px;
+  height: 340px;
+}
+
+.scale-company-photo {
+  margin-bottom: 26px;
+  width: 325px;
+  height: 184px;
+}
+
+.scale-company-description {
+  margin-bottom: 22px;
+  width: 321px;
+  height: 84px;
+}
+
+.avenue-company-block {
+  margin-right: 48px;
+  width: 325px;
+  height: 340px;
+}
+
+.avenue-company-photo {
+  margin-bottom: 26px;
+  width: 325px;
+  height: 184px;
+}
+
+.avenue-company-description {
+  margin-bottom: 22px;
+  width: 325px;
+  height: 84px;
+}
+
+.companies-orange-link {
+  display: flex;
+  gap: 4px;
+}
+
+.description-link {
+  width: 125px;
+  height: 24px;
+  color: rgb(244, 106, 53);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.arrow-link {
+  width: 15px;
+  height: 24px;
+  color: rgb(244, 106, 53);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.companies-lower-blocks-section {
+  margin: 81px 49px 161px 49px;
+  width: 1200px;
+  height: 442px;
+}
+
+.companies-lower-blocks {
+  display: flex;
+}
+
+.textcrunch-block {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  width: 275px;
+  height: 200px;
+}
+
+.textcrunch-element {
+  margin: 75px 29px;
+  width: 217px;
+  height: 50px;
+}
+
+.ny-times-block {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  width: 275px;
+  height: 200px;
+}
+
+.ny-times-element {
+  margin: 75px 29px;
+  width: 217px;
+  height: 50px;
+}
+
+.zdnet-block {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  width: 275px;
+  height: 200px;
+}
+
+.zdnet-element {
+  margin: 75px 100px;
+  width: 75px;
+  height: 50px;
+}
+
+.forbes-block {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+  width: 275px;
+  height: 200px;
+}
+
+.forbes-element {
+  margin: 75px 83px 75px 82px;
+  width: 110px;
+  height: 50px;
+}
+
+/* For you sections */
+
+.for-you-section {
+  background-color: #f4f4f4;
+  width: 1200px;
+  height: 515px;
+  display: flex;
+}
+
+.for-you-text {
+  padding: 110px 101px 20px 48px;
+  width: 451px;
+  /* height: 227px; */
+}
+
+.for-you-buttons {
+  margin: 0px 216px 110px 48px;
+  display: flex;
+  gap: 16px;
+  width: 336px;
+  height: 48px;
+}
+
+.for-you-title {
+  margin-bottom: 27px;
+  width: 451px;
+  height: 104px;
+}
+
+.for-you-description {
+  margin-bottom: 0px;
+  width: 434px;
+  height: 96px;
+  line-height: 32px;
+}
+
+.for-you-orange-button {
+  padding: 13px 32px 13px 32px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(244, 106, 53);
+  border-radius: 10px;
+  background: rgb(244, 106, 53);
+}
+
+.for-you-white-button {
+  color: rgb(33, 33, 33);
+  padding: 13px 21px 13px 22px;
+  background-color: rgba(0, 0, 0, 0);
+
+  box-sizing: border-box;
+  border: 1px solid rgb(33, 33, 33);
+  border-radius: 10px;
+}
+
+.for-you-card-photo {
+  margin: 32px 48px 32px 0px;
+  width: 552px;
+  height: 451px;
+}
+
+/* Footer */
+
+.footer-upper-section {
+  display: flex;
+}
+
+.footer-product-subsection {
+  margin: 120px 142px 98px 0px;
+}
+
+.footer-product-list {
+  margin-top: 7px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-company-subsection {
+  margin: 120px 203px 307px 0px;
+}
+
+.footer-company-list {
+  margin-top: 7px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-resourses-subsection {
+  margin: 120px 0px 307px 0px;
+}
+
+.footer-resourses-list {
+  margin-top: 7px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-brex-logo {
+  margin: 122px 198px 462px 48px;
+}
+
+.footer-subtitle {
+  margin-bottom: 0px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.footer-middle-section {
+  margin: 0px 0px 135px 48px;
+  display: flex;
+  gap: 192px;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-download-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-lower-section {
+  margin: 0px 53px 0px 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-credits {
+  color: rgb(188, 189, 189);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+}
+
+.credit-1 {
+  width: 396px;
+  height: 16px;
+  margin-bottom: 0px;
+}
+
+.credit-2 {
+  width: 1053px;
+  height: 32px;
+  margin-bottom: 0px;
+}
+
+.credit-3 {
+  width: 1081px;
+  height: 16px;
+  margin-bottom: 0px;
+}
+
+.credit-4 {
+  width: 1086px;
+  margin-bottom: 0px;
+}
+
+.credit-5 {
+  width: 1099px;
+  margin-bottom: 0px;
+}
+
+.credit-6 {
+  width: 885px;
+  margin-bottom: 0px;
+}
+
+.credit-7 {
+  width: 1064px;
+  margin-bottom: 0px;
+}
+
+.credit-8 {
+  width: 1047px;
+  margin-bottom: 0px;
+}
+
+.credit-9 {
+  width: 1051px;
+  margin-bottom: 0px;
+}
+
+.credit-10 {
+  width: 1047px;
+  margin-bottom: 0px;
+}
+
+.footer-credits-2 {
+  width: 396px;
+  height: 16px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.24px;
+}
